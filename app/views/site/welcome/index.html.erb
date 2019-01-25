@@ -1,0 +1,20 @@
+<h1><mark>Bem vindo ao meu site hehe</mark></h1>
+<br>  
+<h1> Quem tá logado? </h1>
+
+<% if(user_signed_in?)%>
+<p style=“color:green”><strong> Usuário logado </strong></p>
+<p><%= current_user.inspect %></p>
+<% else %>
+<p style=“color:red”><strong> Usuário deslogado </strong></p>
+<% end %>
+
+<hr>
+
+<% if(admin_signed_in?)%>
+<p style=“color:green”><strong> Administrador logado </strong></p>
+<p><%= current_admin.inspect %></p>
+<% else %>
+<p style=“color:red”><strong> Administrador deslogado </strong></p>
+<% end %>
+

@@ -14,3 +14,7 @@
 #Esse é o js feito na unha (copie-o para a pasta lib/assets/javascripts)
 //= require sb-admin-2.js
 
+#Esse é o JS para os notices da aplicação
+//= require bootstrap-growl-ifightcrime/jquery.bootstrap-growl
+
+
